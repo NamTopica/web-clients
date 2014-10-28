@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% clear_sansregular;
+  color: #333333;
+  background: none repeat scroll 0 0 #eee; }
+img{
+    border:none;
+}
+.clear{
+  clear:both;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 100%;}
+#header{
+    background: none repeat scroll 0 0 #810c15;
+    height: 70px;
+    margin-bottom: 40px;
+}
+.inner-header{
+    margin: 0 auto;
+    width: 1100px;
+    height: 70px;
+}
+.logo {
+    float: left;
+    margin-top: 20px;
+}
+.logo a {
+    float: left;
+}
+.logo p {
+    color: #ffbb33;
+    display: inline;
+    float: left;
+    font-size: 42px;
+    margin-left: 25px;
+    margin-top: -12px;
+}
+.user-header{
+  float: right;
+}
+.user-header > p {
+    display: block;
+    margin-top: 15px;
+}
+.user-header a {
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+}
+.user-info{
+  margin-right:10px;
+}
+.image-avatar {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+table {
+    background: none repeat scroll 0 0 #eee;
+    margin: 0 auto;
+    width: 1100px; }
+
+tr#tab-top {
+    background: none repeat scroll 0 0 #666666;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+}
+.number-choose {
+    padding: 0 !important;
+}
+ul.drop-list {
+    list-style: outside none none;
+}
+.drop-list li {
+    background: url("image/choose.png") no-repeat scroll 55px 20px rgba(0, 0, 0, 0);
+    display: block;
+    padding-left: 5px;
+    position: relative;
+}
+.drop-list li > ul {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+    left: 0;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    position: absolute;
+    width: 180px;
+    display: none;
+}
+p.border-top {
+    background: url("image/border-top.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: 11px;
+    left: 25px;
+    position: absolute;
+    top: -11px;
+    width: 19px;
+}
+ul.drop-list li > ul li {
+    color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-left: 10px;
+    padding-left: 25px;
+}
+li .to {
+    float: left;
+    margin-right: 5px;
+    width: 63px;
+}
+.to > p, .from p {
+    float: left;
+}
+.to > input {
+    border: 1px solid #cccccc;
+    float: left;
+    height: 18px;
+     margin-left: 5px;
+    width: 38px;
+}
+.from input {
+    border: 1px solid #cccccc;
+    float: left;
+    height: 18px;
+     margin-left: 5px;
+    width: 38px;
+}
+.drop-list li:hover ul {
+  display: block;
+}
+.active {
+    background: url("image/tick.png") no-repeat scroll left center rgba(0, 0, 0, 0) !important;
+    padding-left: 25px !important;
+}
+#tab-top th {
+    padding-left: 5px;
+}
+.top-bg {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 8px; }
+
+.box-border {
+  background: #fff;
+  border: 1px solid #ccc;}
+
+table thead tr td {
+  font-size: 16px; }
+
+table td {
+  border-left: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  font-size: 14px;
+  padding-left: 5px;
+  vertical-align: top; }
+
+table .first {
+  border-left: none;
+  color: #810c15;
+  font-weight: bold;
+  padding: 0;
+  vertical-align: inherit; }
+
+.center {
+  text-align: center;
+   padding: 0;
+   font-weight: bold; }
+
+table .last {
+  border-right: none;
+  vertical-align: inherit !important
+ }
+
+table tr {
+  height: 30px;
+  line-height: 30px; }
+
+table tr.background {
+  background: #eee; }
+
+tbody tr td > span {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  width: 20px; }
+
+span#number-one {
+  background: none repeat scroll 0 0 #99cc00;
+  margin-left: 7px;
+  margin-right: 19px; }
+
+#number-two {
+  background: #f79433;
+  margin-right: 17px; }
+
+#number-three {
+  background: #ff4444; }
+
+.box-popup {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 20px;
+   width: 385px; }
+
+.box-number {
+   background: none repeat scroll 0 0 #99cc00;
+    border-radius: 50%;
+    color: #fff;
+    float: left;
+    font-size: 34px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 45px; }
+
+.next-word {
+  float: left;
+  margin-left: 20px;
+   width: 320px; }
+
+.next-word p {
+  color: #666666;
+  margin-top: 10px;
+  font-size: 15px; }
+
+.next-word > span {
+  color: #333333;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 13px; }
+
+.next-word p > span {
+  color: #333;
+  font-weight: bold; }
+
+.next-cancer {
+   margin-bottom: 16px;
+    margin-top: 93px;
+    text-align: right;}
+.next-cancer.next-second {
+    margin-top: 27px;
+}
+.next-word a {
+  border-radius: 3px;
+  color: #fff;
+  padding:5px 28px;
+  text-decoration: none; }
+
+.next-a {
+    background: none repeat scroll 0 0 #99cc00;
+    margin-left: 10px;
+}
+.cancer-a {
+
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    color: #ff4b4b !important;
+}
+.three {
+  background: #f79433; }
+#box-exp td {
+    color: #414141;
+    padding-left: 14px;
+}
+.col2.col-last {
+    color: #810c15 !important;
+}
+table#box-exp {
+    border: 1px solid #e1e1e1 !important;
+    border-radius: 3px;
+    margin-top: 9px;
+}
+
+#box-exp tr {
+    height: 22px !important;
+    line-height: 22px !important;
+}
+.bg-1 {
+    background: none repeat scroll 0 0 #fff;
+}
+.col2 {
+    color: #2c2c2c !important;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+select#choose-v {
+     border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    height: 20px;
+    line-height: 20px;
+    width:319px;
+}
+.next-word.box-2 {
+    position: relative;
+}
+.drop-none {
+    background: url("image/drop.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 18px;
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    right:2px;
+    top: 195px;
+    width: 21px;
+    z-index: 99;
+}
+
+select#choose-v option.active {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    padding: 0 !important;
+}
+.active{
+  background:#99cc00;
+}
+textarea#text-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    height: 55px;
+    margin-left: 15px;
+    margin-top: 9px;
+    padding: 5px;
+    resize: none;
+    width: 293px;
+    overflow: hidden;
+}
+
+.box-number.four {
+    background: none repeat scroll 0 0 #ff4444;
+
+}
+/*# sourceMappingURL=style.css.map */
